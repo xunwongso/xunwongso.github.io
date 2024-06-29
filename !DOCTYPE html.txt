@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical and Electrical Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mechanical and Electrical Engineering</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mechanical">Mechanical Engineering</a></li>
+                <li><a href="#electrical">Electrical Engineering</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Engineering Hub</h2>
+        <p>Explore the latest in Mechanical and Electrical Engineering.</p>
+    </section>
+
+    <section id="mechanical">
+        <h2>Mechanical Engineering</h2>
+        <p>Learn about the principles and applications of mechanical engineering.</p>
+        <ul>
+            <li>Thermodynamics</li>
+            <li>Mechanics</li>
+            <li>Robotics</li>
+            <li>Material Science</li>
+        </ul>
+        <p>Check out our recent projects and case studies.</p>
+    </section>
+
+    <section id="electrical">
+        <h2>Electrical Engineering</h2>
+        <p>Discover the world of electrical engineering and its innovations.</p>
+        <ul>
+            <li>Circuit Design</li>
+            <li>Power Systems</li>
+            <li>Control Systems</li>
+            <li>Telecommunications</li>
+        </ul>
+        <p>Explore our latest projects and case studies.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to advance engineering knowledge and practice.</p>
+        <p>Meet our team and learn about our journey.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mechanical and Electrical Engineering</p>
+    </footer>
+</body>
+</html>
